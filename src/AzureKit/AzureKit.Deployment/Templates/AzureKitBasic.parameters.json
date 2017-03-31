@@ -2,5 +2,29 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
   "parameters": {
+    "AppPlanName": {
+      "value": "vntm-test-scaler-plan"
+    },
+    "WebSiteName": {
+      "value": "classgkapp"
+    },
+    "ApiSiteName": {
+      "value": "classgkapi"
+    },
+    "ManagementSiteName": {
+      "value": "classgkmanagement"
+    },
+    "DocumentDbName": {
+      "value": "classgkdocumentdb"
+    },
+    "StorageName": {
+      "value": "classgkstorage"
+    },
+    "SqlServerName": {
+      "value": "classgksqlserver"
+    },
+    "AppPlanSKU": {
+      "value": "Standard"
+    }
   }
 }
